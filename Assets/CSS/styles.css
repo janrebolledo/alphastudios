@@ -1,0 +1,36 @@
+/* General CSS */
+
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+section {
+    min-height: 88vh;
+}
+
+/* Header */
+
+header {
+    height: 12vh;
+}
