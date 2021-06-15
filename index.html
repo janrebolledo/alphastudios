@@ -57,16 +57,16 @@
     <section class="flex align-items justify-content">
         <div class="flex align-items justify-content column">
             <h1 class="services-heading">What We Offer</h1>
-            <div class="services-container">
-                <div class="service-card">
+            <div id="services" class="services-container">
+                <div data-scroll id="card-1" class="service-card">
                     <h3>Graphic Design</h3>
                     <p>We have a team full of skilled creative graphic design agents that will make your idea reality.</p>
                 </div>
-                <div class="service-card">
+                <div data-scroll id="card-2" class="service-card">
                     <h3>Motion Design</h3>
                     <p>We have a motion design team that is ready to make a showreel, introduction videos and logo animations!</p>
                 </div>
-                <div class="service-card">
+                <div data-scroll id="card-3" class="service-card">
                     <h3>Branding Design</h3>
                     <p>We have an unbeatable team of branding & logo designers who will give your brand a stunning visual identity that stands out</p>
                 </div>
@@ -83,7 +83,7 @@
             <div class="footer-container">
                 <img class="footer-logo" src="Assets/Images/Logo.png">
             </div>
-            <div class="column flex footer-container">
+            <div class="responsive-dir flex footer-container">
                 <a class="footer-list-item" href="index.html">Home</a>
                 <a class="footer-list-item" href="about.html">About</a>
                 <a class="footer-list-item" href="work.html">Work</a>
@@ -109,9 +109,17 @@
 
     <!-- Made with ❤ by Jan Rebolledo (JanRebolledo.com) -->
 
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+
+<script src="Assets/JS/scrollOut.js"></script>
+
+<script type="text/javascript">
+ScrollOut({
+  targets: '#card-1,#card-2,#card-3'
+});
+</script>
 
 </body>
 

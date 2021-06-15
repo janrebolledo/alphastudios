@@ -250,6 +250,7 @@ footer {
   color: black;
   text-decoration: none;
   font-size: 18px;
+  margin: 0 20px;
 }
 
 .footer-sm-container {
@@ -390,6 +391,29 @@ footer {
   color: white;
   background-color: #161828;
   text-align: center;
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+[data-scroll] {
+  transition: opacity .6s, transform .6s;
+}
+
+[data-scroll="in"] {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+[data-scroll="out"] {
+  opacity: 0;
+  transform: translateY(0px);
+
+}
+
+@keyframes fade-up {
+  0% {transform: translateY(-10vh); opacity: 0;}
+  100% {transform: translateY(0); opacity: 1;}
+  
 }
 
 .services-button {
