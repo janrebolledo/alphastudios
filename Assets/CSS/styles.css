@@ -27,17 +27,32 @@
 }
 
 section {
-    min-height: 88vh;
+    min-height: 100vh;
+}
+
+.landing-section {
+  padding-top: 12vh;
 }
 
 .padding {
   padding: 0 15%;
 }
 
+.button {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px 20px;
+  background: white;
+}
+
 /* Header */
 
 header {
     height: 12vh;
+    position: fixed;
+    width: 100%;
+
 }
 
 nav {
@@ -271,3 +286,48 @@ footer {
 }
 
 /* Footer End */
+
+/* Landing Page */
+
+.landing-image {
+  width: 150px;
+  margin-right: 40px;
+}
+
+.landing-text {
+  color: white;
+  height: auto;
+  width: auto;
+}
+
+.landing-header {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.landing-paragraph {
+  margin-bottom: 25px;
+}
+
+/* Serivces Section */
+
+.services-container {
+  margin: 15px 0 0 0;
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+}
+
+.service-card {
+  width: 250px;
+  height: 250px;
+  margin: 0 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #161828;
+  text-align: center;
+}
