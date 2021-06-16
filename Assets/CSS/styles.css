@@ -392,7 +392,6 @@ footer {
   background-color: #161828;
   text-align: center;
   opacity: 0;
-  transform: translateY(50px);
 }
 
 .services-button {
@@ -450,7 +449,6 @@ footer {
   background-color: #161828;
   text-align: center;
   opacity: 0;
-  transform: translateY(50px);
 }
 
 @media screen and (max-width: 980px) {
@@ -506,15 +504,13 @@ textarea {
 /* ScrollOut Classes */
 
 [data-scroll] {
-  transition: opacity .6s, transform .6s;
+  transition: opacity .6s;
 }
 
 [data-scroll="in"] {
   opacity: 1;
-  transform: translateY(0px);
 }
 
 [data-scroll="out"] {
   opacity: 0;
-  transform: translateY(0px);
 }
