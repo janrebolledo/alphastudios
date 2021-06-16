@@ -461,6 +461,12 @@ footer {
   
 }
 
+/* About */
+
+.about-image {
+  width: 250px;
+}
+
 /* Contact */
 
 .contact-text {
