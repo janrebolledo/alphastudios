@@ -365,7 +365,7 @@ footer {
   }
 }
 
-/* Serivces Section */
+/* Services Section */
 
 .services-container {
   margin: 15px 0 0 0;
@@ -462,6 +462,11 @@ footer {
 }
 
 /* About */
+
+.about {
+  align-items: center;
+  width: 50%;
+}
 
 .about-image {
   width: 250px;
