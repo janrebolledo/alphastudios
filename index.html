@@ -113,6 +113,14 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
 
+<script type="text/javascript">
+const tilt = $('.landing-image-container').tilt();
+
+if ($(window).width() < 960) {
+tilt.tilt.destroy.call(tilt);
+}
+</script>
+
 <script src="Assets/JS/scrollOut.js"></script>
 
 <script type="text/javascript">
