@@ -429,6 +429,16 @@ footer {
   color: white;
 }
 
+.testimonials-client {
+  margin-top: 10px;
+}
+
+.testimonials-img {
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
 .testimonials-card {
   margin: 0 15px;
   padding: 15px;

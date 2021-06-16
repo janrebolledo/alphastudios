@@ -8,7 +8,8 @@
     <title>Alpha Studios</title>
     <link rel="icon" href="favicon.png">
     <link rel="stylesheet" href="Assets/CSS/styles.css">
-    <link rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css">
+    <link
+        rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css">
 </head>
 
 <body>
@@ -60,15 +61,18 @@
             <div id="services" class="services-container">
                 <div data-scroll id="card-1" class="service-card">
                     <h3>Graphic Design</h3>
-                    <p>We have a team full of skilled creative graphic design agents that will make your idea reality.</p>
+                    <p>We have a team full of skilled creative graphic design agents that will make your idea reality.
+                    </p>
                 </div>
                 <div data-scroll id="card-2" class="service-card">
                     <h3>Motion Design</h3>
-                    <p>We have a motion design team that is ready to make a showreel, introduction videos and logo animations!</p>
+                    <p>We have a motion design team that is ready to make a showreel, introduction videos and logo
+                        animations!</p>
                 </div>
                 <div data-scroll id="card-3" class="service-card">
                     <h3>Branding Design</h3>
-                    <p>We have an unbeatable team of branding & logo designers who will give your brand a stunning visual identity that stands out.</p>
+                    <p>We have an unbeatable team of branding & logo designers who will give your brand a stunning
+                        visual identity that stands out.</p>
                 </div>
             </div>
             <a href="" class="button-dark services-button">View our projects →</a>
@@ -81,15 +85,24 @@
             <div id="services" class="testimonials-container">
                 <div data-scroll id="card-1" class="testimonials-card">
                     <h3>"Great to work with."</h3>
-                    <p>— Client</p>
+                    <div class="flex align-items justify-content row testimonials-client">
+                        <img class="testimonials-img" src="Assets/Images/Placeholder Profile Icon.jpg">
+                        <p>Client</p>
+                    </div>
                 </div>
-                <div data-scroll id="card-2" class="testimonials-card">
+                <div data-scroll id="card-1" class="testimonials-card">
                     <h3>"Great to work with."</h3>
-                    <p>— Client</p>
+                    <div class="flex align-items justify-content row testimonials-client">
+                        <img class="testimonials-img" src="Assets/Images/Placeholder Profile Icon.jpg">
+                        <p>Client</p>
+                    </div>
                 </div>
-                <div data-scroll id="card-3" class="testimonials-card">
+                <div data-scroll id="card-1" class="testimonials-card">
                     <h3>"Great to work with."</h3>
-                    <p>— Client</p>
+                    <div class="flex align-items justify-content row testimonials-client">
+                        <img class="testimonials-img" src="Assets/Images/Placeholder Profile Icon.jpg">
+                        <p>Client</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -135,31 +148,32 @@
 
     <!-- Made with ❤ by Jan Rebolledo (JanRebolledo.com) -->
 
-<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
 
-<script type="text/javascript">
-const tilt = $('.landing-image-container').tilt();
+    <script type="text/javascript">
+        const tilt = $('.landing-image-container').tilt();
 
-if ($(window).width() < 1024) {
-tilt.tilt.destroy.call(tilt);
-}
-</script>
+        if ($(window).width() < 1024) {
+            tilt.tilt.destroy.call(tilt);
+        }
+    </script>
 
-<script src="Assets/JS/scrollOut.js"></script>
+    <script src="Assets/JS/scrollOut.js"></script>
 
-<script type="text/javascript">
-ScrollOut({
-  targets: '#card-1,#card-2,#card-3'
-});
-</script>
+    <script type="text/javascript">
+        ScrollOut({
+            targets: '#card-1,#card-2,#card-3'
+        });
+    </script>
 
-<script type="text/javascript">
-if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    $("link[rel*='icon']").prop("href",'favicon-dark.png');
-}
-</script>
+    <script type="text/javascript">
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            $("link[rel*='icon']").prop("href", 'favicon-dark.png');
+        }
+    </script>
 
 </body>
 
