@@ -42,20 +42,12 @@
     <!-- Main Start -->
 
     <section style="background-color: #161828;" class="landing-section flex align-items justify-content padding">
-        <div class="flex justify-content responsive-dir contact">
+        <div class="flex justify-content responsive-dir about">
+            <img class="about-image" loading="lazy" src="Assets/Images/Logo White.png">
             <div class="contact-text">
-                <p class="landing-header">Let's work together.</p>
-                <p class="landing-paragraph">Fill out this form with any questions or for a quote.</p>
+                <p class="landing-header">Thank you for reaching out!</p>
+                <p class="landing-paragraph">We'll reply as soon as possible to get your project in motion.</p>
             </div>
-            <form netlify name="Contact" method="POST" action="/form-submitted.html"  class="flex column">
-                <label for="name">Name</label>
-                <input type="text" name="name" placeholder="Name">
-                <label for="name">Email</label>
-                <input type="text" name="email" placeholder="Email">
-                <label for="message">Message</label>
-                <textarea name="message" placeholder="Message" rows="6"></textarea>
-                <button>Send</button>
-            </form>
         </div>
     </section>
     <!-- Main End -->
@@ -93,6 +85,13 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
+<script src="Assets/JS/scrollOut.js"></script>
+
+<script type="text/javascript">
+    ScrollOut({
+        targets: '#card-1,#card-2,#card-3'
+    });
+</script>
 
 <script type="text/javascript">
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
