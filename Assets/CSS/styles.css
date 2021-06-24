@@ -22,12 +22,20 @@
     flex-direction: row;
 }
 
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
 .column {
     flex-direction: column;
 }
 
 section {
     height: 100vh;
+}
+
+.auto {
+  height: auto;
 }
 
 .landing-section {
@@ -463,13 +471,58 @@ footer {
 
 /* About */
 
+.heading {
+  margin: 6%;
+}
+
 .about {
   align-items: center;
   width: 50%;
 }
 
+.owner-card {
+  align-items: center;
+  width: 50%;
+  margin: 1%;
+}
+
 .about-image {
   width: 250px;
+}
+
+.about-text {
+  color: black;
+  margin: 0 50px;
+}
+
+.owners-section {
+  height: auto;
+}
+
+.owner-image {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.about-heading {
+  font-weight: bold;
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 980px) {
+  .heading {
+    margin: 10% 0;
+  }
+  .about {
+    width: auto;
+  }
+  .about-text {
+    margin: 20px 0;
+  }
+  .owner-card {
+    width: auto;
+  }
 }
 
 /* Contact */
