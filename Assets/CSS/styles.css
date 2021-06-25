@@ -80,6 +80,10 @@ section {
   display: none !important;
 }
 
+.full-width {
+  width: 100%;
+}
+
 @media screen and (max-width: 980px) {
   .responsive-dir {
     flex-direction: column;
@@ -540,6 +544,7 @@ footer {
 .about-heading {
   font-weight: bold;
   margin: 10px 0;
+  color: black;
   font-size: 24px;
 }
 
@@ -607,6 +612,72 @@ textarea {
   resize: none; 
 }
 
+/* Work */
+
+.projects-container {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  margin: 0 0 50px 0;
+}
+
+.project-link {
+  width: 23%;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 1%;
+}
+
+.project-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale();
+}
+
+.social-media {
+  background-image: linear-gradient(#52525217, #000000), url('../Images/Work/886ebd118875639.6092104d48d6d.png');
+}
+
+.esports-design {
+  background-image: linear-gradient(#52525217, #000000), url('../Images/Work/886ebd118875639.6092104d48d6d.png');
+}
+
+.motion-design {
+  background-image: linear-gradient(#52525217, #000000), url('../Images/Work/886ebd118875639.6092104d48d6d.png');
+}
+
+.logo-design {
+  background-image: linear-gradient(#52525217, #000000), url('../Images/Work/886ebd118875639.6092104d48d6d.png');
+}
+
+.stream-design {
+  background-image: linear-gradient(#52525217, #000000), url('../Images/Work/886ebd118875639.6092104d48d6d.png');
+}
+
+.project-text {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1400px) {
+  .project-link {
+    width: 48%;
+  }
+  
+}
 /* ScrollOut Classes */
 
 [data-scroll] {
