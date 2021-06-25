@@ -651,19 +651,23 @@ textarea {
 }
 
 .esports-design {
-  background-image: linear-gradient(#52525217, #000000), url('../Images/Work/886ebd118875639.6092104d48d6d.png');
+  background-image: linear-gradient(#52525217, #000000), url('../Images/Work/GAMEDAY-ROKR.jpg');
 }
 
 .motion-design {
-  background-image: linear-gradient(#52525217, #000000), url('../Images/Work/886ebd118875639.6092104d48d6d.png');
+  background-image: linear-gradient(#52525217, #000000), url('../Images/Work/ViL Announcement Soon.gif');
 }
 
 .logo-design {
-  background-image: linear-gradient(#52525217, #000000), url('../Images/Work/886ebd118875639.6092104d48d6d.png');
+  background-image: linear-gradient(#52525217, #000000), url('../Images/Work/Elephant.png');
 }
 
 .stream-design {
-  background-image: linear-gradient(#52525217, #000000), url('../Images/Work/886ebd118875639.6092104d48d6d.png');
+  background-image: linear-gradient(#52525217, #000000), url('../Images/Work/YoYo3.png');
+}
+
+.threed-design {
+  background-image: linear-gradient(#52525217, #000000), url('../Images/Work/Eden-Scene.jpg');
 }
 
 .project-text {
