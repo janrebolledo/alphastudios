@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha Studios</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="../Assets/CSS/styles.css">
+    <link
+        rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css">
+</head>
+
+<body>
+
+    <!-- Header Start -->
+
+    <header>
+        <nav>
+            <div class="logo flex">
+                <a href="../index.html" class="flex align-items justify-content" href=""><img class="header-logo"
+                        src="../Assets/Images/Logo.png">
+                    <strong style="margin-right: 8px;">ALPHA </strong>STUDIOS
+                </a>
+            </div>
+            <input type="checkbox" id="click" />
+            <label for="click" class="menu-btn">
+                ☰
+            </label>
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="../about.html">ABOUT</a></li>
+                <li><a href="../work.html">WORK</a></li>
+                <li><a href="../contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Header End -->
+
+    <!-- Main Start -->
+
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="../Assets/Images/Work/Eden-Scene.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="../Assets/Images/Work/Illumination-Scene.png" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="../Assets/Images/Work/YoYo1.png" style="width:100%">
+          </div>
+          
+          <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="../Assets/Images/Work/Traveler-Scene.png" style="width:100%">
+          </div>
+          
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+      
+      
+          <div class="column2">
+            <img class="demo cursor" src="../Assets/Images/Work/Eden-Scene.jpg" style="width:100%" onclick="currentSlide(1)" alt="">
+          </div>
+          <div class="column2">
+            <img class="demo cursor" src="../Assets/Images/Work/Illumination-Scene.png" style="width:100%" onclick="currentSlide(2)" alt="">
+          </div>
+          <div class="column2">
+            <img class="demo cursor" src="../Assets/Images/Work/YoYo1.png" style="width:100%" onclick="currentSlide(3)" alt="">
+          </div>
+          <div class="column2">
+            <img class="demo cursor" src="../Assets/Images/Work/Traveler-Scene.png" style="width:100%" onclick="currentSlide(4)" alt="">
+          </div>
+        </div>
+      </div>
+
+    <section style="background-color: #161828;" class="landing-section flex align-items justify-content padding auto">
+        <div class="flex align-items justify-content column full-width">
+            <div class="flex align-items justify-content heading">
+                <h1 style="color: #ffffff;">3D Design</h1>
+            </div>
+            <div class="designs-container">
+                <div class="design-card">
+                    <img class="cursor" src="../Assets/Images/Work/Eden-Scene.jpg" onclick="openModal();currentSlide(1)">
+                </div>
+                <div class="design-card">
+                    <img class="cursor" src="../Assets/Images/Work/Illumination-Scene.png" onclick="openModal();currentSlide(2)">
+                </div>
+                <div class="design-card">
+                    <img class="cursor" src="../Assets/Images/Work/YoYo1.png" onclick="openModal();currentSlide(3)">
+                </div>
+                <div class="design-card">
+                    <img class="cursor" src="../Assets/Images/Work/Traveler-Scene.png" onclick="openModal();currentSlide(4)">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main End -->
+
+    <!-- Footer Start -->
+
+    <footer class="flex column align-items justify-content">
+        <div class="footer padding flex align-items">
+            <div class="footer-container">
+                <img class="footer-logo" src="../Assets/Images/Logo.png">
+            </div>
+            <div class="responsive-dir flex footer-container">
+                <a class="footer-list-item" href="../index.html">Home</a>
+                <a class="footer-list-item" href="../about.html">About</a>
+                <a class="footer-list-item" href="../work.html">Work</a>
+                <a class="footer-list-item" href="../contact.html">Contact</a>
+            </div>
+            <div class="flex row align-items justify-content footer-container">
+                <a class="footer-sm-container" href="https://twitter.com/AlphaStudiosHQ"><img loading="lazy"
+                        class="footer-sm" src="../Assets/Images/Social Media Icons/Twitter.png"></a>
+                <a class="footer-sm-container" href="mailto:alphastudios.business@gmail.com"><img loading="lazy"
+                        class="footer-sm" src="../Assets/Images/Social Media Icons/Email.png"></a>
+            </div>
+        </div>
+        <div class="flex row footer-cr padding">
+            <p>Copyright © 2021 <strong>Alpha Studios</strong>. Digital Experience by <a class="footer-cr-link"
+                    href="https://janrebolledo.com">Jan Rebolledo</a> and <a class="footer-cr-link"
+                    href="https://y.at/%F0%9F%A6%84%F0%9F%8C%8A%F0%9F%91%91%F0%9F%8E%A8">Hugo Nguyen</a></p>
+        </div>
+    </footer>
+
+    <!-- Footer End -->
+
+    <!-- Made with ❤ by Jan Rebolledo (JanRebolledo.com) -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+
+    <script type="text/javascript">
+        const tilt = $('.landing-image-container').tilt();
+
+        if ($(window).width() < 1024) {
+            tilt.tilt.destroy.call(tilt);
+        }
+    </script>
+
+    <script src="../Assets/JS/scrollOut.js"></script>
+
+    <script>
+        function openModal() {
+          document.getElementById("myModal").style.display = "block";
+        }
+        
+        function closeModal() {
+          document.getElementById("myModal").style.display = "none";
+        }
+        
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          var captionText = document.getElementById("caption");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+    </script>
+
+    <script type="text/javascript">
+        ScrollOut({
+            targets: '#card-1,#card-2,#card-3'
+        });
+    </script>
+
+    <script type="text/javascript">
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            $("link[rel*='icon']").prop("href", '../favicon-dark.png');
+        }
+    </script>
+
+</body>
+
+</html>
