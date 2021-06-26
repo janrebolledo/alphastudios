@@ -6,6 +6,15 @@
     font-family: Gotham, Arial, sans-serif;
 }
 
+a, p {
+  line-height: 24px;
+}
+
+h1, h2, h3 {
+  line-height: 42px;
+  margin-bottom: 10px;
+}
+
 .flex {
     display: flex;
 }
@@ -643,7 +652,12 @@ textarea {
   text-decoration: none;
   background-position: center;
   background-size: cover;
-  filter: grayscale();
+  filter: grayscale(100%);
+  transition: .5s ease;
+}
+
+.project-card:hover {
+  filter: grayscale(0%);
 }
 
 .social-media {
