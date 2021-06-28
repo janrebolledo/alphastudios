@@ -531,8 +531,22 @@ footer {
   width: 25%;
 }
 
+.product-page-card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.product-page-image {
+  width: 50%;
+}
+
 .product-image {
   width: 100%;
+}
+
+.product-info {
+  margin: 1%;
 }
 
 .product-name {
