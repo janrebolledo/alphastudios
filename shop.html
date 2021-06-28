@@ -7,12 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alpha Studios</title>
     <link rel="icon" href="favicon.png">
-    <link rel="stylesheet" href="Assets/CSS/styles.css">
+    <link rel="stylesheet" href="./Assets/CSS/styles.css">
     <link
         rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css">
-    <link rel="preconnect" href="https://app.snipcart.com">
-    <link rel="preconnect" href="https://cdn.snipcart.com">
-    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.css" />
 </head>
 
 <body>
@@ -23,7 +20,7 @@
         <nav>
             <div class="logo flex">
                 <a href="index.html" class="flex align-items justify-content" href=""><img class="header-logo"
-                        src="Assets/Images/Logo.png">
+                        src="/Assets/Images/Logo.png">
                     <strong style="margin-right: 8px;">ALPHA </strong>STUDIOS
                 </a>
             </div>
@@ -32,10 +29,10 @@
                 ☰
             </label>
             <ul>
-                <li><a class="active" href="index.html">HOME</a></li>
+                <li><a href="index.html">HOME</a></li>
                 <li><a href="shop.html">SHOP</a></li>
                 <li><a href="about.html">ABOUT</a></li>
-                <li><a href="work.html">WORK</a></li>
+                <li><a class="active" href="work.html">WORK</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
             </ul>
         </nav>
@@ -45,67 +42,31 @@
 
     <!-- Main Start -->
 
-    <section style="background-color: #161828;" class="landing-section flex align-items justify-content padding">
-        <div class="flex align-items justify-content responsive-dir">
-            <div class="desktop landing-image-container" data-tilt>
-                <img class="landing-image" src="Assets/Images/Placeholder 2.png">
-                <img class="landing-image-2" src="Assets/Images/Placeholder 3.png">
-            </div>
-            <div class="landing-image-container-mobile mobile">
-            </div>
-            <div class="landing-text">
-                <p class="landing-header">We Are Alpha Studios</p>
-                <p class="landing-paragraph">A design studio committed to making you look good.</p>
-                <a class="button-light" href="">Get in touch →</a>
-            </div>
-        </div>
-    </section>
-
-    <section class="flex align-items justify-content auto paddingv">
-        <div class="flex align-items justify-content column">
-            <h1 class="services-heading">What We Offer</h1>
-            <div id="services" class="services-container">
-                <div data-scroll id="card-1" class="service-card">
-                    <h3>Graphic Design</h3>
-                    <p>We have a team full of skilled creative graphic design agents that will make your idea reality.
-                    </p>
-                </div>
-                <div data-scroll id="card-2" class="service-card">
-                    <h3>Motion Design</h3>
-                    <p>We have a motion design team that is ready to make a showreel, introduction videos and logo
-                        animations!</p>
-                </div>
-                <div data-scroll id="card-3" class="service-card">
-                    <h3>Branding Design</h3>
-                    <p>We have an unbeatable team of branding & logo designers who will give your brand a stunning
-                        visual identity that stands out.</p>
-                </div>
-            </div>
-            <a href="work.html" class="button-dark services-button">View our projects →</a>
-        </div>
-    </section>
-
-    <section class="flex align-items justify-content testimonials-section paddingv">
-        <div class="flex align-items justify-content column">
-            <h1 class="testimonials-heading">Client Testimonials</h1>
-            <div id="services" class="testimonials-container">
-                <div data-scroll id="card-1" class="testimonials-card">
-                    <h3>"Fantastic work, and blew my Expectations out of the water!"</h3>
-                    <div class="flex align-items justify-content row testimonials-client">
-                        <img loading="lazy" class="testimonials-img" src="Assets/Images/AOG.jpg">
-                        <p>Armor Of God Esports</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="flex align-items justify-content padding">
         <div class="flex align-items justify-content column">
-            <h1 class="services-heading">Interested in working together?</h1>
-            <p>Shoot us a message and we can have your creative vision brought to life.</p>
-            <a href="contact.html" class="button-dark services-button">Contact →</a>
-        </div>
+            <h1 class="services-heading">Premade Graphics</h1>
+            <div class="products-container">
+                <div class="product-card">
+                    <a class="product-link" href="./shop/social-media-overlays.html">
+                        <img class="product-image" src="Shop/Social Media Overlays.png">
+                        <div class="product-info">
+                            <p class="product-name">Social Media Overlays</p>
+                            <p class="product-desc">Twitter, Twitch, & Instagram overlays to put on your content.</p>
+                        </div>
+                    </a>
+                    <script async src="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.js"></script>
+                    <div hidden id="snipcart"
+                        data-api-key="Mjg1YjlmOTQtOTk4Ny00Y2NlLTg0YTQtZmY2NWY1NmE4ZDAxNjM3NjA0NjA3NDg1MDIwMDkw"></div>
+                    <button class="button-dark cart-button snipcart-add-item" data-item-id="social-media-overlays"
+                        data-item-price="9.99" data-item-url="https://alpha-studios.netlify.app/shop"
+                        data-item-description="Twitter, Twitch, & Instagram overlays to put on your content."
+                        data-item-image="shop/Social Media Overlays.png" data-item-name="Social Media Overlays"
+                        data-item-max-quantity="1" data-item-file-guid="b8306f3e-4d09-4a42-a2e3-444a3716cebb"
+                        data-item-shippable="false">
+                        $9.99
+                    </button>
+                </div>
+            </div>
     </section>
 
     <!-- Main End -->

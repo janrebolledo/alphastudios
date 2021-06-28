@@ -531,6 +531,11 @@ footer {
   width: 25%;
 }
 
+.product-link {
+  color: #000000;
+  text-decoration: none;
+}
+
 .product-page-card {
   display: flex;
   flex-direction: row;
