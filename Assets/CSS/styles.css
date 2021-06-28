@@ -274,7 +274,7 @@ footer {
 }
 
 .footer-logo {
-  width: 140px;
+  height: 100px;
 }
 
 .footer {
@@ -795,6 +795,10 @@ footer {
 .about-text {
   color: black;
   margin: 0 50px;
+}
+
+.about-text > p {
+  margin: 10px 0;
 }
 
 .owners-section {
