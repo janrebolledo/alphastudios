@@ -46,26 +46,27 @@
 
     <!-- Main Start -->
 
-    <section style="background-color: #000000;" class="landing-section flex align-items justify-content padding">
-        <div class="flex align-items justify-content responsive-dir">
-            <div class="landing-text">
+    <section id="landing" style="background-color: #000000;" class="flex align-items justify-content">
+        <div class="flex align-items justify-content responsive-dir landing-container">
+            <div class="landing-text landing-text-container">
                 <p class="landing-header">We Are Blackout</p>
                 <p class="landing-paragraph">Blackout the competition with the best graphics.</p>
                 <a class="button-light" href="contact.html">Get in touch →</a>
             </div>
-            <div class="splide">
+            <div class="splide landing-carousel">
                 <div class="splide__track">
                     <ul class="splide__list">
-                        <li class="splide__slide">Slide 01</li>
-                        <li class="splide__slide">Slide 02</li>
-                        <li class="splide__slide">Slide 03</li>
+                        <li class="splide__slide" data-splide-html-video="Assets/Images/Work/Davy/TeenageEngineering.mp4"><img src="Assets/Images/Thumbnail.png" alt=""></li>
+                        <li class="splide__slide" data-splide-html-video="Assets/Images/Work/Ilyasse L/Omen Tournament - 3rd round.mp4"><img src="Assets/Images/Thumbnail.png" alt=""></li>
+                        <li class="splide__slide" data-splide-html-video="Assets/Images/Work/Slick/portal.mp4"><img src="Assets/Images/Thumbnail.png" alt=""></li>
+                        <li class="splide__slide" data-splide-html-video="Assets/Images/Work/Zandro/3 Recruit Annoucement.mp4"><img src="Assets/Images/Thumbnail.png" alt=""></li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="flex align-items justify-content auto paddingv">
+    <section id="main" class="flex align-items justify-content auto paddingv">
         <div class="flex align-items justify-content column">
             <h1 class="services-heading">What We Offer</h1>
             <div id="services" class="services-container">
@@ -167,6 +168,37 @@
             $("link[rel*='icon']").prop("href", 'favicon-dark.png');
         }
     </script>
+
+<script>
+new Splide( '.splide', {
+	heightRatio: 0.5625,
+    type       : 'loop',
+	cover      : true,
+	lazyLoad   : 'sequential',
+	video      : {
+		loop: true,
+        mute: true,
+        autoplay: true,
+        disableOverlayUI: true,
+        hideControls: true,
+	},
+} ).mount( window.splide.Extensions );
+</script>
+
+<script>
+var mainbottom = $('#landing').offset().top + $('#landing').height();
+
+$(window).on('scroll', function() {
+
+  stop = Math.round($(window).scrollTop());
+  if (stop > mainbottom) {
+    $('nav').addClass('past-main');
+  } else {
+    $('nav').removeClass('past-main');
+  }
+
+});
+</script>
 
 </body>
 
