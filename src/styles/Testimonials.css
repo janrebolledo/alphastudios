@@ -1,0 +1,27 @@
+.testimonials-container {
+    flex-direction: column;
+    text-align: center;
+}
+
+.client-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.client-container > p > a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.client-container > p > a:hover {
+    text-decoration: underline;
+}
+
+.client-image {
+    width: 48px;
+    border-radius: 50%;
+    margin-right: 12px;
+}

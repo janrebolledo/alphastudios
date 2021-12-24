@@ -1,0 +1,19 @@
+.work-container {
+    flex-direction: column;
+    width: 80%;
+    overflow-x: hidden;
+}
+
+.videos-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 980px) {
+    .video-player {
+        width: 320px;
+    }
+}

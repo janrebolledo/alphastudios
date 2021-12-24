@@ -1,0 +1,16 @@
+.aboutus-logo {
+    width: 50%;
+}
+
+.aboutus-container {
+    flex-direction: row;
+}
+
+@media screen and (max-width: 980px) {
+    .aboutus-container {
+        flex-direction: column;
+    }
+    .aboutus-logo {
+        width: 100%;
+    }
+}

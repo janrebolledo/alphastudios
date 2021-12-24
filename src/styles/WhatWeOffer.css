@@ -1,0 +1,42 @@
+.whatweoffer-section {
+    background-color: var(--primary);
+    color: var(--background);
+}
+
+.whatweoffer-container {
+    flex-direction: column;
+}
+
+.cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--primary);
+    background-color: var(--background);
+    padding: 24px;
+    width: 240px;
+    height: 280px;
+    margin: 0 16px;
+    line-height: 28px;
+}
+
+.card > h4, p {
+    margin: 4px 0;
+}
+
+@media screen and (max-width: 980px) {
+    .cards-container {
+        flex-direction: column;
+    }
+    .card {
+        margin: 24px 0;
+    }
+}
