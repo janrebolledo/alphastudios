@@ -8,6 +8,7 @@ import Work from "./pages/Work";
 import About from "./pages/About";
 import Shop from "./pages/Shop";
 import Contact from "./pages/Contact";
+import Fourofour from "./pages/404";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route exact path="/about" element={<About />} />
           <Route exact path="/shop" element={<Shop />} />
           <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/*" element={<Fourofour />} />
         </Routes>
       </div>
       <Footer />

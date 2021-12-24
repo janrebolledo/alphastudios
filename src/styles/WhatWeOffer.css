@@ -7,6 +7,14 @@
     flex-direction: column;
 }
 
+.fourofour {
+    height: 100vh;
+}
+
+.fourofour > .container {
+    margin: 0;
+}
+
 .cards-container {
     display: flex;
     align-items: center;
