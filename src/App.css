@@ -1,15 +1,15 @@
-.App {
-  display: block;
-  background-color: var(--background);
-  color: #ffffff;
-}
-
 :root {
   --primary: #fff;
   --secondary: #eee;
   --background: #000;
   --foreground: #202020;
   --padding: 0 5%;
+}
+
+.App, #root {
+  display: block;
+  background-color: var(--background);
+  color: #ffffff;
 }
 
 .inverted-colors {
