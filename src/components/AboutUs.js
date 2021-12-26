@@ -9,7 +9,7 @@ function AboutUs() {
                 <img alt="Logo" className="aboutus-logo" src={Logo}/>
                 <div>
                     <h1>About Us.</h1>
-                    <p>Alpha Studios is a creative design agency that focuses on delivering clients high-quality graphics, motion designs, web development, and much more.</p>
+                    <p>BlackoutHQ is a creative design agency that focuses on delivering clients high-quality graphics, motion designs, web development, and much more.</p>
                 </div>
             </div>
         </div>
